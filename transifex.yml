@@ -1,7 +1,7 @@
 git:
   filters:
   - filter_type: dir
-    file_format: MARKDOWN
+    file_format: GITHUBMARKDOWN
     source_file_extension: md
     source_language: zh_CN
     source_file_dir: source
