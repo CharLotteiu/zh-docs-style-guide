@@ -11,15 +11,15 @@
 本章目录如下：
 
 .. toctree::
-   :maxdepth: 2 
-   
+   :maxdepth: 2
+
    空白符号
    列表
    表格
    图形和图片
    注意和说明
    代码块和代码注释
-   链接
+   ../Translations/en_IE/文档内容元素/链接
    引用
    缩略语
    数字
