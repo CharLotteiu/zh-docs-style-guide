@@ -1,0 +1,10 @@
+files:
+  - source: /source
+    ignore:
+      - _static
+      - _templates
+      - media
+      - '*.py'
+      - '*.txt'
+      - /source/*.md
+    translation: '%locale_with_underscore%'
