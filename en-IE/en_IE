@@ -12,19 +12,19 @@ Sample link format in Markdown:
 
 Content in the brackets of a Markdown link `[]` is the descriptive text of the link.The description of the link needs to conform to the following norms.
 
-- A link description must be able to summarize the broad content of the linked document or page, which facilitates the Search Engine Optimization (SEO).For example, a link description may be the title of the page that is linked.
+- A link description must be able to summarize the broad content of the linked document or page, which facilitates Search Engine Optimisation (SEO).For example, a link description may be the title of the page that is linked.
 
     - [Error Example]
 
         - See `[trouble-shooting.md](trouble-shooting.md) for details`
         - For more information, click `[here](trouble-shooting.md)`
 
-    - [Correct Examples]
+    - Correct Examples
 
         - For more details about the above configurations, see related configuration items in `[Feature Configurations](#feature-configuration)`.
         - See `[Trouble Shooting](trouble-shooting.md) for details`。
 
-- The description of the same type of link should be of the same style as much as possible.For example, it is not appropriate to use different descriptions expressing the same meaning in the same document, for example, "See for details", "For more information", "For details", and etc.
+- The description of the same type of link should be of the same style as much as possible.For example, it is not appropriate to use different descriptions expressing the same meaning in the same document, for example, "See for details", "For more information", "For details", etc.
 
 ### 链接的路径
 
