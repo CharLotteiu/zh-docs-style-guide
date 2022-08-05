@@ -14,7 +14,7 @@ Content in the brackets of a Markdown link `[]` is the descriptive text of the l
 
 - A link description must be able to summarize the broad content of the linked document or page, which facilitates Search Engine Optimisation (SEO).For example, a link description may be the title of the page that is linked.
 
-    - [Error Example]
+    - Incorrect Examples
 
         - See `[trouble-shooting.md](trouble-shooting.md) for details`
         - For more information, click `[here](trouble-shooting.md)`
@@ -26,24 +26,24 @@ Content in the brackets of a Markdown link `[]` is the descriptive text of the l
 
 - The description of the same type of link should be of the same style as much as possible.For example, it is not appropriate to use different descriptions expressing the same meaning in the same document, for example, "See for details", "For more information", "For details", etc.
 
-### 链接的路径
+### Path of Link
 
-Markdown 链接中圆括号 `()` 里的内容即为该链接的路径。链接的路径需要符合以下规范。
+Contents in the parenthesis of the Markdown link `()` are the path to the link.The path of the link needs to conform to the following norms.
 
-- **如链至其他相邻文档，且链接的文档篇幅较长，建议链接至锚点**。链接至锚点即链接至某级标题处。Markdown 支持在链接路径的文件名后加“#标题名称”，即可以链接至该文件的特定标题处。
+- **If the pathh is linked to a adjacent document which is long in length, it is recommended to link to anchors in the document.**Linking to anchors means to link to titles in the document.Markdown supports adding "#title-name" after the filename of the link path to the specific title of the document.
 
-    - 【示例】`[配置文件](trouble-shooting.md#配置文件)`这个链接将链至 trouble-shooting.md 文件的“配置文件”标题下。
+    - Example: This link `[Configuration File](trouble-shooting.md#config-file)` will be linked to the "Config File" title of the trouble-shooting.md file.
 
-- 链接路径应尽量统一风格。例如，链接至非外部站点时应统一使用相对路径或绝对路径，不建议混用相对路径和绝对路径。
+- The style of the link paths should be as the same as possible.For example, relative or absolute paths should be used uniformly for links to non-external sites. It is not recommended to use relative and absolute paths mixedly.
 
-- 建议减少将用户链至外部站点的次数，以免外部站点的页面失效而影响用户体验。
+- It is recommended to reduce the number of links to external sites so that the pages of external sites do not fail and affect the user experience.
 
-    > 外部站点的含义：A 网站的文档中出现了一个 B 链接，如果 B 与 A 的域名或服务器不一样，则对于 A 网站的文档来说，B 链接为外部站点。例如：cloud.google.com 相对于 support.google.com 为内部站点；cloud.google.com 相对于 kubernetes.io 为外部站点。
+    > Meaning of external site: A document on site A has a B link, and if B is not the same domain name or server as A, then the B link is an external site for the document on site A.For example, cloud.google.com is an internal site relative to support.google.com; cloud.google.com is an external site relative to kubernetes.io.
 
-- **如果必须将用户链至外部站点，建议在该外链后加上明显的标示，提醒用户该链接将前往外部站点。**
+- **If it is necessary to link the user to an external site, it is recommended that the external link be followed by a prominent marker to remind the user that the link is going to an external site.**
 
-    > 由于不同网站的使用条款和隐私政策不同，用户使用当前站点，一般默认用户已经接受了当前站点的法律条文。跳出当前站点之前，网站维护者有责任提醒用户当前的链接是去往外部站点，跳出去之后如果用户发生问题，不是当前站点的责任。
+    > Since different websites have different terms of use and privacy policies, by using the current site, the user has generally accepted the legal provisions of the current site by default.Before jumping out of the current site, it is the responsibility of the site maintainer to remind the user that the current link is to an external site, and that if the user has problems after jumping out, it is not the responsibility of the current site.
 
-    - 【示例一】如果前端能力足够，可以在外链后加上通用的外链 icon 效果，比如：[贡献者名单](https://github.com/yikeke/zh-style-guide/graphs/contributors)。
+    - Example 1: If the front-end capability is sufficient, you can add a generic external link icon effect after the external link, such as: [Contributor list](https://github.com/yikeke/zh-style-guide/graphs/contributors).
 
-    - 【示例二】在 Markdown 中，可以简单在链接的路径后加上 `"点击前往外部站点"` 或者 `"点击前往 XXX 网站"`等信息，如 `[链接的描述](链接的路径 "前往外部链接的提示")`，即可在正常渲染下，实现鼠标悬停在超链接上时出现提示的效果。
+    - Example 2: In Markdown, you can simply add `"Click to go to an external site"` or `"Click to go to XXX website"`after the path of the link, such as `[Description of Link](the path of the link "Tips for going to an external link")`, to achieve the effect of hovering over the hyperlink when the mouse appears under normal rendering.
