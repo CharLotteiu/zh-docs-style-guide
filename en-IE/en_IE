@@ -1,49 +1,22 @@
-## Link
+.. PingCAP ZH styleguide documentation master file, created by
+   sphinx-quickstart on Wed Sep 16 11:46:34 2020.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
-Links in technical documents direct users to other headings in the same document, other adjacent documents or external sites.This section focuses on recommended guidelines for the use of links in technical files written in Markdown language.
+语言风格
+=================================================
 
-Sample link format in Markdown:
+本章对技术文档中使用的语言风格作出了统一规范。
 
-- Link to other titles in the same document: `[Product Structure](#product-structure)`
-- Link to other adjacent documents: `[Product Structure](../docs/archive.md)`
-- Link to external sites: `[Contributors' Guide](https://docs.microsoft.com/en-cn/contribute/)`
+本章目录如下：
 
-### Description of Link
+.. toctree::
+   :maxdepth: 2
+   
+   对话式
+   客观礼貌
+   简洁清晰
+   通俗易懂
+   用户导向
+   用词恰当
 
-Content in the brackets of a Markdown link `[]` is the descriptive text of the link.The description of the link needs to conform to the following norms.
-
-- A link description must be able to summarize the broad content of the linked document or page, which facilitates Search Engine Optimisation (SEO).For example, a link description may be the title of the page that is linked.
-
-    - Incorrect Examples
-
-        - See `[trouble-shooting.md](trouble-shooting.md) for details`
-        - For more information, click `[here](trouble-shooting.md)`
-
-    - Correct Examples
-
-        - For more details about the above configurations, see related configuration items in `[Feature Configurations](#feature-configuration)`.
-        - See `[Trouble Shooting](trouble-shooting.md) for details`。
-
-- The description of the same type of link should be of the same style as much as possible.For example, it is not appropriate to use different descriptions expressing the same meaning in the same document, such as "See for details", "For more information", "For details", etc.
-
-### Path of Link
-
-Contents in the parenthesis of the Markdown link `()` are the path to the link.The path of the link needs to conform to the following norms.
-
-- **If the path is linked to an adjacent document which is long in length, it is recommended to link to anchors in the document.**Linking to anchors means to link to titles in the document.Markdown supports adding "#title-name" after the filename of the link path to a specific title in the document.
-
-    - Example: This link `[Configuration File](trouble-shooting.md#config-file)` will be linked to the "Config File" title of the trouble-shooting.md file.
-
-- The style of the link paths should be as the same as possible.For example, relative or absolute paths should be used uniformly for links to non-external sites. It is not recommended to use relative and absolute paths mixedly.
-
-- It is recommended to reduce the number of links to external sites so that the pages of external sites do not fail and affect the user experience.
-
-    > Meaning of external site: A document on site A has a B link, and if B is not the same domain name or server as A, then the B link is an external site for the document on site A.For example, cloud.google.com is an internal site relative to support.google.com; cloud.google.com is an external site relative to kubernetes.io.
-
-- **If it is necessary to link the user to an external site, it is recommended that the external link be followed by a prominent marker to remind the user that the link is going to an external site.**
-
-    > Since different websites have different terms of use and privacy policies, by using the current site, the user has generally accepted the legal provisions of the current site by default.Before jumping out of the current site, it is the responsibility of the site maintainer to remind the user that the current link is to an external site, and that if the user has problems after jumping out, it is not the responsibility of the current site.
-
-    - Example 1: If the front-end capability is sufficient, you can add a generic external link icon effect after the external link, such as [Contributor list](https://github.com/yikeke/zh-style-guide/graphs/contributors).
-
-    - Example 2: In Markdown, you can simply add `"Click to go to an external site"` or `"Click to go to XXX website"`after the path of the link, such as `[Description of Link](the path of the link "Tips for going to an external link")`, to achieve the effect of hovering over the hyperlink when the mouse appears under normal rendering.
