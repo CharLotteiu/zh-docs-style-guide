@@ -7,4 +7,4 @@ files:
       - '*.py'
       - '*.txt'
       - /source/*.md
-    translation: '%locale_with_underscore%'
+    translation: '%original_file_name%'
