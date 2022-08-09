@@ -3,17 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-名称与命名
+标点符号
 =================================================
 
-本章对技术文档的相关名称与命名作出了统一规范。
+技术文档中的标点符号极易用错，文档作者必须牢记规范，保证文档的美观性和可读性。
 
 本章目录如下：
 
 .. toctree::
-   :maxdepth: 2
-   
-   文件命名
-   产品命名
-   名称使用
+   :maxdepth: 2 
 
+   常用中文标点符号
+   中文标点使用
+   中英文混用时标点用法
