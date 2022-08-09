@@ -3,16 +3,20 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-标点符号
+语言风格
 =================================================
 
-技术文档中的标点符号极易用错，文档作者必须牢记规范，保证文档的美观性和可读性。
+本章对技术文档中使用的语言风格作出了统一规范。
 
 本章目录如下：
 
 .. toctree::
-   :maxdepth: 2 
+   :maxdepth: 2
+   
+   对话式
+   客观礼貌
+   简洁清晰
+   通俗易懂
+   用户导向
+   用词恰当
 
-   常用中文标点符号
-   中文标点使用
-   中英文混用时标点用法
