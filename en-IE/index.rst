@@ -1,19 +1,22 @@
-.. PingCAP ZH styleguide documentation master file, created by
+.. 中文技术文档写作风格指南 documentation master file, created by
    sphinx-quickstart on Wed Sep 16 11:46:34 2020.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-拼写与语法
+中文技术文档写作风格指南
 =================================================
-
-技术文档中，应严格保证无任何拼写和语法错误。本章对技术文档的拼写和语法作出了统一规范。
-
-本章目录如下：
 
 .. toctree::
    :maxdepth: 2
-   
-   拼写
-   语法
-   文档质量检查工具
+   :glob:
+   :caption: 全部章节目录
 
+   关于本指南
+   语言风格/index
+   文档结构样式/index
+   文档内容元素/index
+   标点符号/index
+   名称与命名/index
+   拼写与语法/index
+   附录资料及相关说明
+   参考资料
