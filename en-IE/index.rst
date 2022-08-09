@@ -3,20 +3,18 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-语言风格
+文档结构样式
 =================================================
 
-本章对技术文档中使用的语言风格作出了统一规范。
+本章对构成一篇技术文档的结构样式作出了统一规范。
 
 本章目录如下：
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 2 
    
-   对话式
-   客观礼貌
-   简洁清晰
-   通俗易懂
-   用户导向
-   用词恰当
+   标题
+   段落
+   句子
+   目录
 
