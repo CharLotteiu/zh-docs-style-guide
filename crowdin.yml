@@ -1,5 +1,5 @@
 files:
-  - source: /source
+  - source: /source/**/*
     ignore:
       - _static
       - _templates
@@ -7,4 +7,4 @@ files:
       - '*.py'
       - '*.txt'
       - /source/*.md
-    translation: '%original_path%/%original_file_name%'
+    translation: /%locale_with_underscore%/**/%original_file_name%
